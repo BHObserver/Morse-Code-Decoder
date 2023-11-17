@@ -22,7 +22,9 @@ def decode_char(morse_char)
   MORSE_CODE_DICT.key(morse_char)
 end
 
-
+def decode_char(morse_char)
+  MORSE_CODE_DICT.key(morse_char)
+end
 
 puts decode_message('-- -.--   -. .- -- .')
 puts decode_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
