@@ -14,9 +14,7 @@ MORSE_CODE_DICT = {
   '0' => '-----', ' ' => '   '
 }.freeze
 
-def decode_char(morse_char)
-  MORSE_CODE_DICT.key(morse_char)
-end
+
 
 def decode_word(morse_word)
   morse_chars = morse_word.split
